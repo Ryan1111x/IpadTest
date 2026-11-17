@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111318">
+    <title>iPad Development Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="counter-card">
+      <p class="eyebrow">A LITTLE TAP GOES A LONG WAY</p>
+      <h1>iPad Development Test</h1>
+      <p class="description">A simple counter. Made for your fingertips.</p>
+      <div class="counter-display">
+        <span class="counter-label">CURRENT COUNT</span>
+        <output id="counter" aria-live="polite" aria-atomic="true">0</output>
+      </div>
+      <div class="actions">
+        <button id="increment" type="button">Increase counter <span aria-hidden="true">+</span></button>
+        <button id="reset" class="secondary" type="button">Reset</button>
+      </div>
+      <p class="hint">Start at zero. See where you go.</p>
+    </main>
+  </body>
+</html>
